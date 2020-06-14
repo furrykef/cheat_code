@@ -1,9 +1,6 @@
 extends Node2D
 
 func _ready():
-	$CheatCode.add_code("xyzzy")
-	$CheatCode.add_code("porn")
-	$CheatCode.add_code("banana")
 	$CheatCode.add_code("bang!")
 
 func _on_CheatCode_code_entered(code):
